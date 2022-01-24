@@ -1,0 +1,40 @@
+tr {
+    background-color:rgb(244, 247, 253);
+    width: 20px;
+    border: 1px solid rgb(243, 241, 241);
+    
+}
+table {
+    width: 80%;
+    text-align:left;
+    border-collapse: collapse;
+    
+    
+}
+td, tr{
+    padding-left: 15px;
+
+}
+th{
+    padding-left: 15px;
+    color: white;
+
+}
+tr:nth-child(even) {
+    background-color: rgb(238, 238, 238);
+  }
+.first{
+    background-color: rgb(182, 70, 55);
+}
+.second{
+    background-color: rgb(26, 156, 21);
+}
+.third{
+    background-color: cornflowerblue;
+}
+body{
+    background-color: rgb(53, 53, 53);
+}
+tr:nth-child(even){
+    background-color: rgb(228, 228, 228);
+}
